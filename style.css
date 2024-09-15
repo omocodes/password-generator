@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #18171F;
+    color: #e6e5ea;
+}
+
+.container {
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: #24232C;
+}
+
+.container h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #817D92;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.text-field {
+    position: relative;
+}
+
+.text-field span {
+    color: #A4FFAF;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.password-box {
+    font-size: 32px;
+    color: #E6E5EA;
+    background-color: #24232C;
+    border: none;
+    outline: none;
+}
+
+input[type="range"] {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    margin-block: 8px;
+    align-items: center;
+}
+
+.row span {
+    color: #A4FFAF;
+    font-size: 32px;
+}
+
+.row p, .row label {
+    flex-basis: 100%;
+}
+
+.row input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.row label {
+    margin-left: 8px;
+}
+
+.generate-btn {
+    border: none;
+    outline: none;
+    background-color: #A4FFAF;
+    padding: 12px 24px;
+    color: #24232C;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-block: 8px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.generate-btn:hover {
+    background-color: #24232C;
+    color: #A4FFAF;
+}
+
+.generate-btn .material-symbols-outlined {
+    font-size: 20px;
+}
+
+.strength-btn {
+    border: none;
+    outline: none;
+    background-color: #18171F;
+    padding: 12px 24px;
+    color: #817D92;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-block: 8px;
+    cursor: pointer;
+    display: flex;
+}
